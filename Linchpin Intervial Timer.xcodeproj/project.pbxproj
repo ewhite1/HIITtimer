@@ -22,6 +22,7 @@
 		2BBA4C611926E25C00966923 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBA4C401926E25C00966923 /* UIKit.framework */; };
 		2BBA4C691926E25C00966923 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA4C671926E25C00966923 /* InfoPlist.strings */; };
 		2BBA4C6B1926E25C00966923 /* Linchpin_Intervial_TimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA4C6A1926E25C00966923 /* Linchpin_Intervial_TimerTests.m */; };
+		2BBA4C751926E9B900966923 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA4C741926E9B900966923 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		2BBA4C661926E25C00966923 /* Linchpin Intervial TimerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Linchpin Intervial TimerTests-Info.plist"; sourceTree = "<group>"; };
 		2BBA4C681926E25C00966923 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2BBA4C6A1926E25C00966923 /* Linchpin_Intervial_TimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Linchpin_Intervial_TimerTests.m; sourceTree = "<group>"; };
+		2BBA4C741926E9B900966923 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		2BBA4C301926E25C00966923 = {
 			isa = PBXGroup;
 			children = (
+				2BBA4C741926E9B900966923 /* README.md */,
 				2BBA4C421926E25C00966923 /* Linchpin Intervial Timer */,
 				2BBA4C641926E25C00966923 /* Linchpin Intervial TimerTests */,
 				2BBA4C3B1926E25C00966923 /* Frameworks */,
@@ -236,6 +239,7 @@
 			files = (
 				2BBA4C581926E25C00966923 /* Images.xcassets in Resources */,
 				2BBA4C471926E25C00966923 /* InfoPlist.strings in Resources */,
+				2BBA4C751926E9B900966923 /* README.md in Resources */,
 				2BBA4C501926E25C00966923 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
