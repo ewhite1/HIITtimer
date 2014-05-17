@@ -1,3 +1,2 @@
 A HIIT timer program for iPhone
-More written soon.
-Initial Commit, designed as a utility application. 
+Just started out project. see TODO.txt, to see current features being worked on.  

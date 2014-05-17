@@ -1,0 +1,18 @@
+Project Tasks
+-[ ] save data to UITextFields
+-[ ] send data from UITextFields to UILabels(send each time and how many intervals to each label)
+-[ ] Make Timing Label Count down Seconds
+-[ ] Make Title Label Swap, during certian Intervals(eg swap delay, then warm up, high, normal, etc, cooldown)
+-[ ] Make Pause functionality(hard, take whatever time is left on label, store it in a varable, and continue countdown where it left off)
+-[ ] add sound event when label reaches zero, indicating next interval(deedadeet! deedadeet!)
+-[ ] add a few second delay between each interval to allow setup(5-8 seconds? I don't know if I want to make this a custom setting or not, quite yet)
+-[ ] design cleanup
+    -[ ] Font design 
+    -[ ] image icons
+    -[ ] background image
+    -[ ] custom start and pause button
+
+Future items
+-[ ] port to WindowPhone(I would like to focus on this, since they are in need of more apps! Plus I am a proud winphone user)
+-[ ] port to Android
+-[ ] add other features, such as setup for different types of interval training. 
