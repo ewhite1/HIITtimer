@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BBA4C3D1926E25C00966923 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBA4C3C1926E25C00966923 /* Foundation.framework */; };
+		2BBA4C3F1926E25C00966923 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBA4C3E1926E25C00966923 /* CoreGraphics.framework */; };
+		2BBA4C411926E25C00966923 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBA4C401926E25C00966923 /* UIKit.framework */; };
+		2BBA4C471926E25C00966923 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA4C451926E25C00966923 /* InfoPlist.strings */; };
+		2BBA4C491926E25C00966923 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA4C481926E25C00966923 /* main.m */; };
+		2BBA4C4D1926E25C00966923 /* LPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA4C4C1926E25C00966923 /* LPAppDelegate.m */; };
+		2BBA4C501926E25C00966923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA4C4E1926E25C00966923 /* Main.storyboard */; };
+		2BBA4C531926E25C00966923 /* LPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA4C521926E25C00966923 /* LPMainViewController.m */; };
+		2BBA4C561926E25C00966923 /* LPFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA4C551926E25C00966923 /* LPFlipsideViewController.m */; };
+		2BBA4C581926E25C00966923 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA4C571926E25C00966923 /* Images.xcassets */; };
+		2BBA4C5F1926E25C00966923 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBA4C5E1926E25C00966923 /* XCTest.framework */; };
+		2BBA4C601926E25C00966923 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBA4C3C1926E25C00966923 /* Foundation.framework */; };
+		2BBA4C611926E25C00966923 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBA4C401926E25C00966923 /* UIKit.framework */; };
+		2BBA4C691926E25C00966923 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BBA4C671926E25C00966923 /* InfoPlist.strings */; };
+		2BBA4C6B1926E25C00966923 /* Linchpin_Intervial_TimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBA4C6A1926E25C00966923 /* Linchpin_Intervial_TimerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BBA4C621926E25C00966923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BBA4C311926E25C00966923 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BBA4C381926E25C00966923;
+			remoteInfo = "Linchpin Intervial Timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BBA4C391926E25C00966923 /* Linchpin Intervial Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Linchpin Intervial Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBA4C3C1926E25C00966923 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2BBA4C3E1926E25C00966923 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2BBA4C401926E25C00966923 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2BBA4C441926E25C00966923 /* Linchpin Intervial Timer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Linchpin Intervial Timer-Info.plist"; sourceTree = "<group>"; };
+		2BBA4C461926E25C00966923 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2BBA4C481926E25C00966923 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BBA4C4A1926E25C00966923 /* Linchpin Intervial Timer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Linchpin Intervial Timer-Prefix.pch"; sourceTree = "<group>"; };
+		2BBA4C4B1926E25C00966923 /* LPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPAppDelegate.h; sourceTree = "<group>"; };
+		2BBA4C4C1926E25C00966923 /* LPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPAppDelegate.m; sourceTree = "<group>"; };
+		2BBA4C4F1926E25C00966923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BBA4C511926E25C00966923 /* LPMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPMainViewController.h; sourceTree = "<group>"; };
+		2BBA4C521926E25C00966923 /* LPMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPMainViewController.m; sourceTree = "<group>"; };
+		2BBA4C541926E25C00966923 /* LPFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPFlipsideViewController.h; sourceTree = "<group>"; };
+		2BBA4C551926E25C00966923 /* LPFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPFlipsideViewController.m; sourceTree = "<group>"; };
+		2BBA4C571926E25C00966923 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2BBA4C5D1926E25C00966923 /* Linchpin Intervial TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Linchpin Intervial TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBA4C5E1926E25C00966923 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2BBA4C661926E25C00966923 /* Linchpin Intervial TimerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Linchpin Intervial TimerTests-Info.plist"; sourceTree = "<group>"; };
+		2BBA4C681926E25C00966923 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2BBA4C6A1926E25C00966923 /* Linchpin_Intervial_TimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Linchpin_Intervial_TimerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BBA4C361926E25C00966923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBA4C3F1926E25C00966923 /* CoreGraphics.framework in Frameworks */,
+				2BBA4C411926E25C00966923 /* UIKit.framework in Frameworks */,
+				2BBA4C3D1926E25C00966923 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBA4C5A1926E25C00966923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBA4C5F1926E25C00966923 /* XCTest.framework in Frameworks */,
+				2BBA4C611926E25C00966923 /* UIKit.framework in Frameworks */,
+				2BBA4C601926E25C00966923 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BBA4C301926E25C00966923 = {
+			isa = PBXGroup;
+			children = (
+				2BBA4C421926E25C00966923 /* Linchpin Intervial Timer */,
+				2BBA4C641926E25C00966923 /* Linchpin Intervial TimerTests */,
+				2BBA4C3B1926E25C00966923 /* Frameworks */,
+				2BBA4C3A1926E25C00966923 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BBA4C3A1926E25C00966923 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA4C391926E25C00966923 /* Linchpin Intervial Timer.app */,
+				2BBA4C5D1926E25C00966923 /* Linchpin Intervial TimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BBA4C3B1926E25C00966923 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA4C3C1926E25C00966923 /* Foundation.framework */,
+				2BBA4C3E1926E25C00966923 /* CoreGraphics.framework */,
+				2BBA4C401926E25C00966923 /* UIKit.framework */,
+				2BBA4C5E1926E25C00966923 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BBA4C421926E25C00966923 /* Linchpin Intervial Timer */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA4C4B1926E25C00966923 /* LPAppDelegate.h */,
+				2BBA4C4C1926E25C00966923 /* LPAppDelegate.m */,
+				2BBA4C4E1926E25C00966923 /* Main.storyboard */,
+				2BBA4C511926E25C00966923 /* LPMainViewController.h */,
+				2BBA4C521926E25C00966923 /* LPMainViewController.m */,
+				2BBA4C541926E25C00966923 /* LPFlipsideViewController.h */,
+				2BBA4C551926E25C00966923 /* LPFlipsideViewController.m */,
+				2BBA4C571926E25C00966923 /* Images.xcassets */,
+				2BBA4C431926E25C00966923 /* Supporting Files */,
+			);
+			path = "Linchpin Intervial Timer";
+			sourceTree = "<group>";
+		};
+		2BBA4C431926E25C00966923 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA4C441926E25C00966923 /* Linchpin Intervial Timer-Info.plist */,
+				2BBA4C451926E25C00966923 /* InfoPlist.strings */,
+				2BBA4C481926E25C00966923 /* main.m */,
+				2BBA4C4A1926E25C00966923 /* Linchpin Intervial Timer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BBA4C641926E25C00966923 /* Linchpin Intervial TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA4C6A1926E25C00966923 /* Linchpin_Intervial_TimerTests.m */,
+				2BBA4C651926E25C00966923 /* Supporting Files */,
+			);
+			path = "Linchpin Intervial TimerTests";
+			sourceTree = "<group>";
+		};
+		2BBA4C651926E25C00966923 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BBA4C661926E25C00966923 /* Linchpin Intervial TimerTests-Info.plist */,
+				2BBA4C671926E25C00966923 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BBA4C381926E25C00966923 /* Linchpin Intervial Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BBA4C6E1926E25C00966923 /* Build configuration list for PBXNativeTarget "Linchpin Intervial Timer" */;
+			buildPhases = (
+				2BBA4C351926E25C00966923 /* Sources */,
+				2BBA4C361926E25C00966923 /* Frameworks */,
+				2BBA4C371926E25C00966923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Linchpin Intervial Timer";
+			productName = "Linchpin Intervial Timer";
+			productReference = 2BBA4C391926E25C00966923 /* Linchpin Intervial Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BBA4C5C1926E25C00966923 /* Linchpin Intervial TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BBA4C711926E25C00966923 /* Build configuration list for PBXNativeTarget "Linchpin Intervial TimerTests" */;
+			buildPhases = (
+				2BBA4C591926E25C00966923 /* Sources */,
+				2BBA4C5A1926E25C00966923 /* Frameworks */,
+				2BBA4C5B1926E25C00966923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BBA4C631926E25C00966923 /* PBXTargetDependency */,
+			);
+			name = "Linchpin Intervial TimerTests";
+			productName = "Linchpin Intervial TimerTests";
+			productReference = 2BBA4C5D1926E25C00966923 /* Linchpin Intervial TimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BBA4C311926E25C00966923 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = linchpin;
+				TargetAttributes = {
+					2BBA4C5C1926E25C00966923 = {
+						TestTargetID = 2BBA4C381926E25C00966923;
+					};
+				};
+			};
+			buildConfigurationList = 2BBA4C341926E25C00966923 /* Build configuration list for PBXProject "Linchpin Intervial Timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BBA4C301926E25C00966923;
+			productRefGroup = 2BBA4C3A1926E25C00966923 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BBA4C381926E25C00966923 /* Linchpin Intervial Timer */,
+				2BBA4C5C1926E25C00966923 /* Linchpin Intervial TimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BBA4C371926E25C00966923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBA4C581926E25C00966923 /* Images.xcassets in Resources */,
+				2BBA4C471926E25C00966923 /* InfoPlist.strings in Resources */,
+				2BBA4C501926E25C00966923 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBA4C5B1926E25C00966923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBA4C691926E25C00966923 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BBA4C351926E25C00966923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBA4C561926E25C00966923 /* LPFlipsideViewController.m in Sources */,
+				2BBA4C4D1926E25C00966923 /* LPAppDelegate.m in Sources */,
+				2BBA4C531926E25C00966923 /* LPMainViewController.m in Sources */,
+				2BBA4C491926E25C00966923 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBA4C591926E25C00966923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBA4C6B1926E25C00966923 /* Linchpin_Intervial_TimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BBA4C631926E25C00966923 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BBA4C381926E25C00966923 /* Linchpin Intervial Timer */;
+			targetProxy = 2BBA4C621926E25C00966923 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BBA4C451926E25C00966923 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BBA4C461926E25C00966923 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2BBA4C4E1926E25C00966923 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BBA4C4F1926E25C00966923 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BBA4C671926E25C00966923 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BBA4C681926E25C00966923 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BBA4C6C1926E25C00966923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BBA4C6D1926E25C00966923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BBA4C6F1926E25C00966923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Linchpin Intervial Timer/Linchpin Intervial Timer-Prefix.pch";
+				INFOPLIST_FILE = "Linchpin Intervial Timer/Linchpin Intervial Timer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2BBA4C701926E25C00966923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Linchpin Intervial Timer/Linchpin Intervial Timer-Prefix.pch";
+				INFOPLIST_FILE = "Linchpin Intervial Timer/Linchpin Intervial Timer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2BBA4C721926E25C00966923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Linchpin Intervial Timer.app/Linchpin Intervial Timer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Linchpin Intervial Timer/Linchpin Intervial Timer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Linchpin Intervial TimerTests/Linchpin Intervial TimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2BBA4C731926E25C00966923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Linchpin Intervial Timer.app/Linchpin Intervial Timer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Linchpin Intervial Timer/Linchpin Intervial Timer-Prefix.pch";
+				INFOPLIST_FILE = "Linchpin Intervial TimerTests/Linchpin Intervial TimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BBA4C341926E25C00966923 /* Build configuration list for PBXProject "Linchpin Intervial Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBA4C6C1926E25C00966923 /* Debug */,
+				2BBA4C6D1926E25C00966923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BBA4C6E1926E25C00966923 /* Build configuration list for PBXNativeTarget "Linchpin Intervial Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBA4C6F1926E25C00966923 /* Debug */,
+				2BBA4C701926E25C00966923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2BBA4C711926E25C00966923 /* Build configuration list for PBXNativeTarget "Linchpin Intervial TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBA4C721926E25C00966923 /* Debug */,
+				2BBA4C731926E25C00966923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BBA4C311926E25C00966923 /* Project object */;
+}
